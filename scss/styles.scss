@@ -1,0 +1,52 @@
+@font-face{
+
+  font-family: 'GothaProMed';
+  src: url('../fonts/gothamPro/GothaProMed.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face{
+
+  font-family: 'GothaProBol';
+  src: url('../fonts/gothamPro/GothaProBol.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: "LoraRegular";
+  src: url("../fonts/lora/LoraRegular.eot");
+  src: url("../fonts/lora/LoraRegular.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/lora/LoraRegular.woff") format("woff"),
+  url("../fonts/lora/LoraRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "LoraItalic";
+  src: url("../fonts/lora/LoraItalic.eot");
+  src: url("../fonts/lora/LoraItalic.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/lora/LoraItalic.woff") format("woff"),
+  url("../fonts/lora/LoraItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+header {
+  height: 60px;
+  line-height: 60px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+.main_bg {
+  background: url("../img/bg-new.png") no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 500px;
+
+  h3 {
+    max-width: 600px;
+    margin: auto;
+  }
+}
