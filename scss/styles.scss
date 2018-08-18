@@ -33,7 +33,6 @@
   font-weight: normal;
 }
 img.center {
-  width: 400px;
   max-width: 100%;
   height: auto;
   vertical-align: middle;
@@ -66,6 +65,9 @@ header {
 }
 .description {
   padding: 30px 0;
+  img {
+    width: 400px;
+  }
   .description_text {
     margin-top: 6em;
   }
@@ -75,4 +77,30 @@ header {
   .advantages_text {
     text-align: center;
   }
+}
+.details {
+  padding: 30px 0;
+  .details_desc {
+    padding-top: 6em;
+  }
+}
+
+.instructions {
+  padding: 30px 0;
+  img {
+    width: 250px;
+  }
+}
+.catnip {
+  padding: 30px 0;
+  .catnip_text {
+    text-align: center;
+    padding-top: 6em;
+  }
+  img {
+    width: 730px;
+  }
+}
+.reviews {
+  padding: 30px 0;
 }
