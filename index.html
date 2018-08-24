@@ -26,23 +26,23 @@
 
     <section class="main_bg">
         <div class="main_bg_pic">
-            <img src="img/kitten.png" alt="">
+            <img src="img/kitten.png" class="center" alt="">
         </div>
-        <h3 class="text-center">Уникальная рассческа-массажер для кошек с креплением к стене Сatit Senses 2.0</h3>
+        <h3 class="text-center">Игрушка-массажер для кошек с креплением к стене Сatit Senses 2.0</h3>
     </section>
 
     <section class="description">
         <div class="container">
             <div class="row">
-                <div class="col-6">
+                <div class="col-md-6 text-center text-md-left">
                     <img src="img/Self-Groomer_A-award-570x708.jpg" class="center" alt="">
                 </div>
-                <div class="col-6">
-                    <div class="description_text">
-                        <h2 class="description_title">Senses 2.0 Self Groomer</h2>
+                <div class="col-md-6">
+                    <div class="description_text mt-5">
+                        <h2 class="title">Senses 2.0 Self Groomer</h2>
                         <div class="description_details">
                             <p>
-                                Grooming made easy!
+                                Теперь ваш кот сам будет рад расчесываться!
                             </p>
                             <ul>
                                 <li>Удаляет и собирает выпавшие волосы</li>
@@ -52,6 +52,10 @@
                                 <li>Изготовлены из материалов, не содержащих опасные химические вещества</li>
                                 <li>Награжден премией «Cat Friendly» в 2017 году Международной организацией по уходу за кошками</li>
                             </ul>
+                            <div class="price">
+                                <span>Цена: 2099 тенге</span>
+                                <a href="#" class="btn btn-success">Заказать</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -62,9 +66,9 @@
     <section class="advantages">
         <div class="container">
             <div class="row">
-                <div class="col-6">
+                <div class="col-md-6">
                     <div class="advantages_text">
-                        <h2 class="title">Обеспечьте свою кошку постоянным источником удовольствия от трения и ухода.</h2>
+                        <h2 class="title">Обеспечьте своей кошке постоянный источник удовольствия от трения и ухода.</h2>
                         <p>
                             Просто прикрепите массажер к поверхности на высоте вашей кошки и ... все готово!
                         </p>
@@ -76,8 +80,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
-                    <div class="text-right">
+                <div class="col-md-6">
+                    <div class="text-center text-md-right mt-4 mt-md-0">
                         <img src="img/advantages.jpg" class="center" alt="">
                     </div>
                 </div>
@@ -88,13 +92,13 @@
     <section class="details">
         <div class="container">
             <div class="row">
-                <div class="col-8">
+                <div class="col-md-8">
                     <div>
                         <img src="img/Background.jpg" class="center" alt="">
                     </div>
                 </div>
-                <div class="col-4">
-                    <div class="details_desc">
+                <div class="col-md-4">
+                    <div class="details_desc text-center text-md-left mt-md-5 pt-md-3">
                         <h2 class="title">
                             Уникальная рассческа-массажер включает
                         </h2>
@@ -107,22 +111,6 @@
             </div>
         </div>
     </section>
-
-<!--    <section class="loose_hair">
-        <div class="container">
-            <div class="row">
-                <div class="col-6">
-                    <div class="loose_hair_desc">
-                        <h2>Collects loose hair</h2>
-                        <p>The Senses 2.0 Self Groomer helps remove and collect loose hair, as a constant support towards a cleaner and more enjoyable living environment.</p>
-                    </div>
-                </div>
-                <div class="col-6">
-
-                </div>
-            </div>
-        </div>
-    </section>-->
 
     <section class="instructions">
         <div class="container">
@@ -144,8 +132,8 @@
     <section class="catnip">
         <div class="container">
             <div class="row">
-                <div class="col-4">
-                    <div class="catnip_text">
+                <div class="col-md-4">
+                    <div class="catnip_text mt-md-5 pt-md-4">
                         <h2 class="title">
                             Отсек для кошачьей мяты
                         </h2>
@@ -154,9 +142,44 @@
                             Для этого в комплект щетки для самостоятельной чистки входит пакет канадской кошачьей мяты.                        </p>
                     </div>
                 </div>
-                <div class="col-8">
+                <div class="col-md-8">
                     <div>
                         <img src="img/catnip.jpg" class="center" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="feedback">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="title">Оставьте свои данные для заказа и наш менеджер свяжется с вами</h2>
+                </div>
+                <div class="col-md-6">
+                    <form class="needs-validation" id="feedbackForm" action="/process/process.php" novalidate>
+                        <div class="form-group">
+                            <label for="exampleInputName">Имя</label>
+                            <input type="text" name="name" class="form-control" id="exampleInputName" placeholder="Введите имя" minlength="2" maxlength="30" required>
+                            <div class="invalid-feedback">
+                                Пожалуйста, заполните поле.
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputTel">Телефон</label>
+                            <input type="password" class="form-control" id="exampleInputTel" placeholder="Введите телефон" required>
+                            <div class="invalid-feedback">
+                                Пожалуйста, заполните поле.
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-success">Отправить</button>
+                    </form>
+                    <!-- Сообщение об успешной отправки формы -->
+                    <div class="form-result-success d-none text-center justify-content-center align-items-center" style="position: absolute;
+        top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,.6); color: #fff; font-size: 1.25rem;">
+                        <div class="alert alert-success rounded-0">Форма успешно отправлена. Нажмите на
+                            <a class="alert-link" href="#" data-reloadform="#feedbackForm">ссылку</a>, чтобы отправить ещё одно сообщение.</div>
                     </div>
                 </div>
             </div>
@@ -166,29 +189,41 @@
     <section class="reviews">
         <div class="container">
             <div class="row">
-                <h2 class="title text-center">
-                    Отзывы довольных кошек
-                </h2>
-                <div id="review-carousel" class="owl-carousel owl-theme">
-                    <div class="item">
-                        <img src="img/review1.jpg" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="img/review1.jpg" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="img/review1.jpg" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="img/review1.jpg" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="img/review1.jpg" alt="">
+                <div class="col-12">
+                    <h2 class="title text-center">
+                        Отзывы довольных кошек
+                    </h2>
+                    <div id="review-carousel" class="owl-carousel owl-theme">
+                        <div class="item">
+                            <img src="img/review1.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/review2.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/review3.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/review4.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/review5.jpg" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p>Все права защищены 2018</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/bootstrap/popper.min.js"></script>
@@ -196,5 +231,7 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/cookie.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/main123.js"></script>
+    <script src="js/process-forms.js"></script>
 </body>
 </html>
